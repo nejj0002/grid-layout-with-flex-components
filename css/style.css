@@ -1,0 +1,43 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.emojis{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.icon {
+  align-self: center;
+  margin-bottom: 1rem;
+  order: -1;
+  font-size: 4rem;
+}
+
+.emoji a{
+  display: block;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-top: auto;
+}
+
+
